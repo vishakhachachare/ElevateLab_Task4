@@ -7,7 +7,9 @@ Manage a DevOps project using Git best practices, including branching, pull requ
 ## Tools Used
 
 Git – Version control
+
 GitHub – Remote repository and collaboration
+
 Markdown – Documentation of workflow and project
 
 ---
@@ -32,10 +34,11 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add gittask4 https://github.com/vishakhachachare/elevate_lab_task4.git
-git push -u gittask4 main
+git remote add origin https://github.com/vishakhachachare/ElevateLab_Task4.git
+git push -u origin main
+
 ```
-2. Create required Branches
+2. Create Main, Dev and Feature Branches
 
 - main 
 
